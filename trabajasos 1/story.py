@@ -30,13 +30,13 @@ def main():
 
 
     print()
-    print("HELL0", name, "!" )
+    print("HELL0", name .upper(), "!" )
     print()
     print("THIS IS YOUR STORY!")
     print()
-    print("AT DAWN THE SKY TURNED", color)
-    print("AND THE AIR FELT", adj,".")
-    print("I DECIDED I WILL FINALLY", goal)
+    print("AT DAWN THE SKY TURNED", color .upper())
+    print("AND THE AIR FELT", adj .upper(),".")
+    print("I DECIDED TODAY I WILL FINALLY", goal .upper())
 
 
 
