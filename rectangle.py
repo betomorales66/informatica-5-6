@@ -6,13 +6,14 @@ def main():
     print("o" * width)
     print("o" * width)
 
-    a = width * 5
-    p = width * 2 + width * 2
+    p = (width * 2)+(5 * 2)
+    print("perimeter:", p)
 
-    print(
+    a = (5 * width)
+    print("area:", a)
 
-
-
+    d = ((5**2 + width**2)**0.5)
+    print("diagonal:", d)
 
 
 
