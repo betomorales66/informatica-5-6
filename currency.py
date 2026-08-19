@@ -4,14 +4,11 @@ def main():
     s = int(input("What do you have left in soles:? "))
     r = int(input("What do you have left in reais? "))
 
-    mxn = (p * 0.0054) + (s * 0.20) + (r * 0.31)
-    usd = (p * 0.00032) + (s * 0.30) + (r * 0.19)
+    mxn = (p * 0.0054) + (s * 5.07) + (r * 3.28)
+    usd = mxn / 17.06
 
-
-
-
-
-
+    print("USD:", round(usd, 2))
+    print("MXN:", round(mxn, 2))
 
 
 
