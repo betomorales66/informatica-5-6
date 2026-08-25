@@ -2,7 +2,7 @@ def main():
 
     print("Tortas chumas")
 
-    rating = int(input("rate our restaurant from 0 to 5: "))
+    rating = float(input("rate our restaurant from 0 to 5: "))
 
     if rating > 4.5:
         print("Perfection")
@@ -16,7 +16,7 @@ def main():
         print("wacala🤢")
 
     print("thank you for your rating!! 🙏")
-    
+
 
 
 
