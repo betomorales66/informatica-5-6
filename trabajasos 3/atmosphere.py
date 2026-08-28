@@ -20,26 +20,34 @@ def main():
     else:
           print("ERR0R 😡")
 
-    altittude = float(input("Enter exact altittude:"))
+    altittude = int(input("Enter exact altittude:"))
+#troposphere
+    if altittude > 0:
+        print(altittude - 0 / 0.02 )
+#stratosphere
+    elif altittude > 12:
+        print(altittude - 12 / 0.075 )
+#mesosphere
+    elif altittude > 50:
+        print(altittude - 50 / 0.2 )
+#thermosphere
+    elif altittude > 85:
+        print(altittude - 85 / 0.5 )
+#exosphere
+    elif altittude > 700:
+        print(altittude - 700 / 2 )
 
-    if altittude > 0
-    
-            print("")
+    elif altittude > 10000:
+        print("you in space now buddy")
 
-        elif altittude >
-            print("")
+    else:
+        print("error")
 
-        elif altittude >
-            print("")
 
-        elif altittude >
-            print("")
 
-        elif altittude >
-            print("")
 
-        else:
-            print("")
+
+
 
 
 
