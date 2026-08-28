@@ -22,7 +22,8 @@ def main():
 
     altittude = float(input("Enter exact altittude:"))
 
-    if altittude >
+    if altittude > 0
+    
             print("")
 
         elif altittude >
