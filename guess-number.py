@@ -12,9 +12,9 @@ def main():
     print("Well", name, "I am thinking of a number between 1 and 100.")
     answer = int(input("Take a guess."))
 
-    while answer != number
-        if answer > number
-        print("your guess is too high")
+    while answer != number:
+        if answer > number:
+            print("your guess is too high")
         answer = int(input("Take a guess."))
 
 
