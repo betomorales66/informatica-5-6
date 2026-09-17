@@ -9,11 +9,10 @@ def main():
             new_task = input("enter a new task: ")
             task.append(new_task)
         elif command == "complete":
-            new_task = input("you have completed: ")
+            new_task = input("you have completed: ").strip()
             task.remove(new_task)
-        elif command == "end":
+        elif command == "terminar":
             break
-            task.pop(new_task)
         else:
             print("que te pasa mijo that was not very mexican")
 
