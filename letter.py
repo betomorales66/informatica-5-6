@@ -1,0 +1,29 @@
+def main():
+
+    friends = ["mario", "luigi", "daisy", "yoshi", "toad", "princess peach", "bowser"]
+    for receiver in friends:
+        if receiver != "princess peach":
+
+            print(f"""+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+
+       Dear {receiver},
+
+       You are cordially invited to a ball at
+       Peach's Castle this evening, 7:00 PM.
+
+       Sincerely,
+       {friends[5]}
++~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+
+                                                """)
+
+
+
+
+
+
+
+
+
+
+
+if __name__=="__main__":
+    main()
