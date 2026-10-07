@@ -24,6 +24,8 @@ def main ():
         if a > b and c > b
             lowest_num = a
             print(f"The highest number entered is {round(lowest_num,1)}")
+        if a > b and b > bc:
+                    lowest_num = a
 
         elif a == b:
             print("both numbers are equal")
