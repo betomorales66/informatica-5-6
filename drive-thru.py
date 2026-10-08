@@ -6,8 +6,8 @@ def welcome():
     menu = ["Cheeseburger", "Fries", "Soda", "Ice Cream", "Cookie"]
     print("Welcome to burgers chumas!")
     print("Here's the menu:")
-    for food in range(len(menu)):
-        print(f"{food+1}. {menu[food]}")
+    for i in range(len(menu)):
+        print(f"{i+1}. {menu[food]}")
 
 
 def get_item(order):
