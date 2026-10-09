@@ -8,10 +8,8 @@ def main():
 
 def binary_to_decimal (binary):
     decimal = 0
-    for digit in decimal:
-        decimal = decimal * 2 + int(digit)
-
-
+    for digit in binary:
+        decimal = (decimal * 2) + int(digit)
 
 
 
